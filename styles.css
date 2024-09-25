@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #005fa3;
+    padding: 10px;
+    text-align: right;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    background-color: #005fa3;
+    padding: 50px 20px;
+    color: white;
+}
+
+.why-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.stat-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+}
+
+.stat-icon img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.stat-box h3 {
+    font-size: 36px;
+    color: #0077cc;
+    margin: 0;
+}
+
+.stat-box p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.service-box {
+    background-color: white;
+    border: 2px solid #0077cc;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-box h3 {
+    margin-top: 0;
+    color: #0077cc;
+}
+
+.appointment {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.appointment form {
+    display: inline-block;
+    max-width: 500px;
+    width: 200%;
+}
+
+.appointment input, .appointment select, .appointment textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #9a1ec0;
+}
+
+.appointment button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0077cc;
+    color: rgb(245, 235, 235);
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons  a {
+    color: rgb(150, 172, 90);
+    margin: 0 10px;
+    text-decoration: none;
+}
